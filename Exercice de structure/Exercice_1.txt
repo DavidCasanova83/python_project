@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------
+Exercice 1 - Manipulation de base
+------------------------------------------------------------------------------
+
+(1) Testez dans l'interprète les commandes suivantes :
+>>> ma_liste =[3, 7, 21, 42]
+>>> print(ma_liste)
+>>> len(ma_liste)
+>>> bool(ma_liste)
+>>> empty = []
+>>> type(empty)
+>>> bool(empty)
+>>> len(empty)
+>>> vide = list()
+>>> type(vide)
+>>> len(vide)
+>>> data =['bon', "jour", 0, 1, [1 ,2 ,4]]
+>>> len(data)
+>>> type(data[0])
+>>> type(data[4])
+>>> data[4]=666
+>>> print(data)
+>>> print(data[-1])
+
+(2) Testez dans l'interprète les commandes suivantes :
+>>> mon_tuple = (1 , "deux", [3, 4, 5])
+>>> len(mon_tuple)
+>>> print(bool(mon_tuple))
+>>> empty = ()
+>>> type(empty)
+>>> bool(empty)
+>>> vide = tuple()
+>>> type(vide)
+>>> single = (1)
+>>> type(single)
+>>> singleton = (1,)
+>>> type(singleton)
+>>> couple = 1, 2
+>>> print(couple)
+>>> type(couple)
+>>> mon_tuple[0] = 2
+>>> mon_tuple[2][0] = 2
